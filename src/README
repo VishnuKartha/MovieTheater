@@ -1,0 +1,24 @@
+Assumptions:
+1. Safety is the number one priority for customers, thus the buffer requirements is the most important.
+2. Customers who request a reservation prefer to be seated as close to each other as possible.
+3. Some customers would be fine to see the movie at a current time if the group needed to be split up
+4. Customers prefer to be seated towards the back of the screen so they do not have to strain their neck
+   as much looking up at the screen.
+
+How to use the code given an input file:
+    1. In the source folder compile the program by typing "javac *.java" into cmd and hitting enter.
+    2. Get the path of the input file call it filePath
+    3. Run the program by typing "java Runner filePath" at the command prompt.
+    4. The program will give the path to an output file, which will contain the output.
+    ** If the user wants to change the output file, change the pathName variable in Runnner.java. **
+
+To execute test InputTests/inputX.txt (substitute all occurences of inputX.txt with pathname for test input file);
+    in command , input the command below:
+
+    ** input6.txt and input11.txt are meant to throw an Error **
+
+type InputTests\input11.txt && echo.  && java Runner InputTests\input11.txt && type C:\Users\Vishnu\IdeaProjects\MovieTheater\src\theaterSeatingAssignments.txt.
+    ** if the output path is changed from default, substitute C:\Users\Vishnu\IdeaProjects\MovieTheater\src\theaterSeatingAssignments.txt. with the output file**
+
+First Prints the input file. Then the Output file path. Then the contents of the output file after execution.
+
